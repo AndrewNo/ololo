@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+/* .wrapper {
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+
+
+
+.inner:hover {
+	margin-left: 50%;
+} */
+.inner {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-image: url(sun.jpg);
+	background-size: cover;
+	animation: rote 3s infinite linear;
+
+}
+
+@keyframes rote {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
